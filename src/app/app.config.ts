@@ -7,6 +7,8 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
 
+
+//HttpLoaderFactory function
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
 }
